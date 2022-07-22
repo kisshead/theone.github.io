@@ -696,6 +696,28 @@
 
 
 
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: true,
+        appId: 'b3R8bj6RcKRUgRNBgUrvykTp-9Nh9j0Va',
+        appKey: '7PwxvVxah4aRO5M2iKagsDIU',
+        placeholder: 'Just go go',
+        avatar:'monsterid',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
 
 
   
