@@ -157,8 +157,7 @@
   <entry>
     <title>与你</title>
     <url>/2023/05/12/%E4%B8%8E%E4%BD%A0/</url>
-    <content><![CDATA[<h1 id="与你"><a href="#与你" class="headerlink" title="与你"></a>与你</h1><p>&lt;video crossorigin&#x3D;”anonymous”preload&#x3D;”auto” src&#x3D;”<a href="https://trouvaille.oss-cn-hangzhou.aliyuncs.com/video/%E4%B8%8E%E5%A5%B9.mp4&quot;&gt;">https://trouvaille.oss-cn-hangzhou.aliyuncs.com/video/%E4%B8%8E%E5%A5%B9.mp4&quot;&gt;</a></p>
-]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="与你"><a href="#与你" class="headerlink" title="与你"></a>与你</h1><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","lang":"zh-cn//语言","screenshot":true,"hotkey":true,"preload":"auto","volume":0.9,"video":{"url":"/resources/1.mp4","pic":"/resources/images/1.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
       <tags>
         <tag>about you</tag>
       </tags>
